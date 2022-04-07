@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fullstack todo</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js" integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="header"></header>
+    <div id="loginDiv">
+        <h2>Login</h2>
+        <label for="username">Username/Email:</label>
+        <input type="text" id="username"><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <button id="login">Login</button>
+        <h2>New here? Create user</h2>
+        <label for="registerUser">Username: </label>
+        <input type="text" id="registerUser"><br>
+        <label for="userEmail">Email: </label>
+        <input type="text" id="userEmail"><br>
+        <label for="registerPassword">Password:</label>
+        <input type="password" id="registerPassword">
+        <button onclick="register()">Create user</button>
+    </div>
+    <br>
+    <br>
+    <h2>Make a task - get shit done</h2>
+    <label for="title">Title:</label>
+    <input type="text" id="title"><br>
+    <label for="desc">Description:</label>
+    <input type="text" id="desc">
+    <button id="addTodo">Add todo</button>
+    <div>
+        <h2>Todos</h2>
+        <ul id="todolist"></ul>
+        <h2>Completed todos</h2>
+        <ul id="completedList"></ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,15 @@
+[]Skapa en Collection type för todos i Strapi.
+[]Varje todo ska ha en titel, beskrivning samt en boolean för om den är utförd eller inte. 
+[]Gör det möjligt för användaren att kunna skapa upp todos i din applikation.
+[]Kräv sedan att användaren loggar in för att kunna se alla todos samt skapa nya todos.
+[]Varje todo ska ha en delete-knapp bredvid. Gör det möjligt för användaren att ta bort todos från API:et.
+[]Varje todo ska ha en redigera-knappm knapp bredvid. När man klickar på den ska input-fält för att fylla i titel och beskrivning dyka upp, där användaren kan redigera dessa. Gör så att input-fälten är ifyllda med den nuvarande värdena.
+[]Skapa funktionalitet för att utföra todos med ett knapptryck.
+[]Dela upp dina todos i en “Att göra”-lista samt en “Avklarade ärenden”-lista.
+
+
+FÖRBÄTTRINGAR
+[] Appen särskiljer inte på unika användare, kollar bara om man är inloggad eller ej
+[x] När man skapar ny användare ska man hamna i inloggad-vyn
+[] Justera knapparna när todon hamnar i completed-listan. Kanske ändra Complete till checkbox istället? Toggla så de byter lista beroende på icheckad eller ej
+[] Snygga till den
